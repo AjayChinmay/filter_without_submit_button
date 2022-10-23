@@ -32,7 +32,7 @@
 		<!--Filter button starts -->
         <div class="col-lg-12">
             <div class="row common_user_filter" style="margin-bottom:20px;"> 
-            <div class="col-md-9 common_filter" style="display: flex;">
+            <div class="col-md-12 common_filter" style="display: flex;">
 
                 <div class="common_filter_sub">
                   <label><b>Select Storage</b></label>
@@ -47,19 +47,18 @@
                 {{ csrf_field() }}
                 <label><b>Select Ram</b></label>
                 <div>
-                <input name="selector[]" id="ad_Checkbox1" class="ads_Checkbox" type="checkbox" value="2GB" />
-                <input name="selector[]" id="ad_Checkbox2" class="ads_Checkbox" type="checkbox" value="4GB" />
-                <input name="selector[]" id="ad_Checkbox3" class="ads_Checkbox" type="checkbox" value="8GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="12GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="16GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="24GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="32GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="48GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="64GB" />
-                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="96GB" />
-                <input type="button" id="save_value" name="save_value" value="Save" />
-				        </div>
-				        </div>
+                <input name="selector[]" id="ad_Checkbox1" class="ads_Checkbox" type="checkbox" value="2GB" /> 2GB
+                <input name="selector[]" id="ad_Checkbox2" class="ads_Checkbox" type="checkbox" value="4GB" /> 4GB
+                <input name="selector[]" id="ad_Checkbox3" class="ads_Checkbox" type="checkbox" value="8GB" /> 8GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="12GB" /> 12GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="16GB" /> 16GB<br/>
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="24GB" /> 24GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="32GB" /> 32GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="48GB" /> 48GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="64GB" /> 64GB
+                <input name="selector[]" id="ad_Checkbox4" class="ads_Checkbox" type="checkbox" value="96GB" /> 96GB
+                </div>
+                </div>
 
                 <div class="common_filter_sub">
                   <label><b>Select Harddisk Type</b></label>
